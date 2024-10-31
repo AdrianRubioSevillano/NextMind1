@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(197, 251, 233);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    color: black;
+    margin: 0;
+}
+
+.nextmind{
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    margin-top: 0;
+    font-style:italic;
+}
+
+main{
+    margin: 0;
+}
+
+main nav{
+    background-color: rgb(98, 247, 197);
+    text-align: center;
+    padding: 4px;
+    position:sticky;
+    top: 0;
+}
+
+nav a{
+    color: black;
+    margin: 5px;
+}
+
+main section{
+    max-width: 900px; 
+    margin: auto;    
+    padding: 10px;   
+    text-align: left;
+}
+
+.aplicaciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.aplicaciones-foto{
+    border-radius: 15px;
+    height: 250px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+li a{
+    color: black;
+}
+
+.guiones-aplicaciones{
+    text-align: left;
+}
+
+h4{
+    margin-bottom: -15px;
+}
+
+.fila{
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+    text-align: center;
+}
+
+.apartado-fila{
+    border: 3px solid aquamarine;
+    margin: 10px;
+    width: 33%;
+}
+
+h5{
+    background-color: aquamarine;
+    margin: 0;
+    height: 35px;
+
+}
+
+.info{
+    margin-left: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 100%; 
+}
+
+.hardware{
+    display: flex;
+}
+
+.hardware img{
+    width: 50%;
+    height: 100%;
+
+}
+
+.galeria h3{
+    width: 100%;
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+footer img{
+    height: 75px;
+}
